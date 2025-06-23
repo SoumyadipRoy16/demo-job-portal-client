@@ -28,7 +28,7 @@ const Job = () => {
         queryKey: ["job"],
         queryFn: () =>
             getSingleHandler(
-                `http://localhost:3000/api/v1/jobs/${id}`
+                `https://demo-job-portal-client-seven.vercel.app/api/v1/jobs/${id}`
             ),
     });
 
