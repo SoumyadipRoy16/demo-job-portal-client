@@ -12,7 +12,7 @@ const UserContext = ({ children }) => {
         setUserLoading(true);
         try {
             const response = await axios.get(
-                `https://demo-job-portal-client-seven.vercel.app/api/v1/auth/me`,
+                `https://demo-job-portal-server.vercel.app/api/v1/auth/me`,
                 { withCredentials: true }
             );
             setUserError({ status: false, message: "" });

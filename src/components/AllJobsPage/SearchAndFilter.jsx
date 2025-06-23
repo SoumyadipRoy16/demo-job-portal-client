@@ -16,7 +16,7 @@ const SearchAndFilter = () => {
 
     useEffect(() => {
         const baseUrl =
-            "https://demo-job-portal-client-seven.vercel.app/api/v1/jobs?page=1&limit=5";
+            "https://demo-job-portal-server.vercel.app/api/v1/jobs?page=1&limit=5";
         let url = baseUrl;
         const queryParams = {};
 

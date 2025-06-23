@@ -9,7 +9,7 @@ const Admin = () => {
         queryKey: ["admin_info"],
         queryFn: () =>
             getAllHandler(
-                `https://demo-job-portal-client-seven.vercel.app/api/v1/admin/info`
+                `https://demo-job-portal-server.vercel.app/api/v1/admin/info`
             ),
     });
 

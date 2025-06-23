@@ -16,7 +16,7 @@ const DashboardLayout = () => {
     const handleLogout = async () => {
         try {
             const response = await axios.post(
-                "https://demo-job-portal-client-seven.vercel.app/api/v1/auth/logout",
+                "https://demo-job-portal-server.vercel.app/api/v1/auth/logout",
                 { withCredentials: true }
             );
             Swal.fire({

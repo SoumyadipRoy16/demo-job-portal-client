@@ -33,7 +33,7 @@ const JobCard = ({ job }) => {
         };
         try {
             const response = await postHandler({
-                url: "https://demo-job-portal-client-seven.vercel.app/api/v1/application/apply",
+                url: "https://demo-job-portal-server.vercel.app/api/v1/application/apply",
                 body: appliedJob,
             });
             Swal.fire({
